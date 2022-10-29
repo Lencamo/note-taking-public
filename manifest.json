@@ -1,12 +1,24 @@
 {
-  "icons": [{
-    "src": "./favicon.ico",
-    "sizes": "64x64 32x32 24x24 16x16",
-    "type": "image/x-icon"
-  }],
-  "name": "deer-sir",
-  "short_name": "鹿",
+  "icons": [
+    {
+      "src": "./favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    },
+    {
+       "src": "/head-150x150.png",
+       "sizes": "150x150",
+       "type": "image/png"
+    }
+  ],
+
   "version": "1.0.0",
+
+  "name": "任先生的笔记库",
+  "short_name": "任先生",
+  "display": "standalone",
+  "background_color": "#fff",
   "description": "学习使你快乐！！",
-  "manifest_version": 2
+  "start_url": "/",
+  "scope": "."
 }
